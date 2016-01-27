@@ -72,7 +72,7 @@ from googleapiclient.errors import HttpError
 from apiclient import sample_tools
 from oauth2client.client import AccessTokenRefreshError
 
-conn_string = "dbname='sunedison' port='5439' user='abhardwaj' password='Master12' host='sunedisondatawarehouse.cgnr3c8sn1sz.us-west-2.redshift.amazonaws.com'";
+conn_string = "dbname='sunedison' port='5439' user='XXXX' password='XXXX' host='XXXX'";
 print "Connecting to database";
 conn = psycopg2.connect(conn_string);
 print "Connected to database";
